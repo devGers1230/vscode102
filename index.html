@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Personal - Gerson</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="encabezado-principal">
+        <h1 class="nombre-usuario">Gerson</h1>
+        <p class="subtitulo">Perfil Personal</p>
+    </header>
+
+    <main class="contenido-principal">
+
+        <section class="seccion-presentacion">
+            <h2 class="titulo-seccion">Sobre mí</h2>
+            <p class="texto-presentacion">¡Hola! Mi nombre es Gerson. Apasionado por la tecnología y la creación de proyectos, siempre en busca de aprender cosas nuevas y compartir mis pasiones.</p>
+        </section>
+
+        <section class="seccion-intereses">
+            <h2 class="titulo-seccion">Mis Gustos e Intereses</h2>
+            <ul class="lista-intereses">
+                <li class="item-interes">Videojuegos</li>
+                <li class="item-interes">Fútbol</li>
+                <li class="item-interes">Música</li>
+                <li class="item-interes">Programación</li>
+            </ul>
+        </section>
+
+        <section class="seccion-contacto">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <p class="texto-contacto">Puedes ponerme en contacto conmigo a través del siguiente formulario:</p>
+            <form class="formulario-contacto" action="#" method="post">
+                <div class="campo-formulario">
+                    <label class="etiqueta-campo" for="nombre">Nombre:</label>
+                    <input class="entrada-texto" type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="campo-formulario">
+                    <label class="etiqueta-campo" for="email">Correo Electrónico:</label>
+                    <input class="entrada-texto" type="email" id="email" name="email" required>
+                </div>
+                <div class="campo-formulario">
+                    <label class="etiqueta-campo" for="mensaje">Mensaje:</label>
+                    <textarea class="entrada-mensaje" id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button class="boton-enviar" type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="pie-pagina">
+        <p class="texto-copyright">&copy; 2026 Gerson. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
