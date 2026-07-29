@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
     boxShadow: '0 4px 12px rgba(0, 0, 0, 0.2)',
     transition: 'transform 0.2s ease, background-color 0.2s ease'
   });
-
+             
   // Efectos hover al botón por JS
   botonModo.addEventListener('mouseenter', () => botonModo.style.transform = 'scale(1.05)');
   botonModo.addEventListener('mouseleave', () => botonModo.style.transform = 'scale(1)');
